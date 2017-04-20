@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="85a74536-4fc2-4364-894b-600b5512f12d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/app.component.html" afterPath="$PROJECT_DIR$/client/app/app.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/app/components/tasks/tasks.component.html" afterPath="$PROJECT_DIR$/client/app/components/tasks/tasks.component.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tasks.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/app/components/tasks/tasks.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="240">
+              <caret line="16" column="102" lean-forward="false" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -148,8 +148,8 @@
         <option value="$PROJECT_DIR$/client/task.ts" />
         <option value="$PROJECT_DIR$/client/package.json" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/client/app/components/tasks/tasks.component.html" />
         <option value="$PROJECT_DIR$/client/app/app.component.html" />
+        <option value="$PROJECT_DIR$/client/app/components/tasks/tasks.component.html" />
       </list>
     </option>
   </component>
@@ -383,7 +383,7 @@
       <workItem from="1492636504002" duration="3717000" />
       <workItem from="1492657919427" duration="1498000" />
       <workItem from="1492663103423" duration="30000" />
-      <workItem from="1492665147049" duration="1149000" />
+      <workItem from="1492665147049" duration="1279000" />
     </task>
     <task id="LOCAL-00001" summary="Added &quot;engines&quot;: {&#10;          &quot;node&quot;: &quot;6.9.4&quot;&#10;        }&#10;To see if it fixes Heroku server errors">
       <created>1492658368937</created>
@@ -399,11 +399,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492666082714</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Warned EDIT not operational">
+      <created>1492666432838</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1492666432838</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15051000" />
+    <option name="totallyTimeSpent" value="15181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,7 +490,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added &quot;engines&quot;: {&#10;          &quot;node&quot;: &quot;6.9.4&quot;&#10;        }&#10;To see if it fixes Heroku errors" />
     <MESSAGE value="Added &quot;engines&quot;: {&#10;          &quot;node&quot;: &quot;6.9.4&quot;&#10;        }&#10;To see if it fixes Heroku server errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added &quot;engines&quot;: {&#10;          &quot;node&quot;: &quot;6.9.4&quot;&#10;        }&#10;To see if it fixes Heroku server errors" />
+    <MESSAGE value="Warned EDIT not operational" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warned EDIT not operational" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -787,14 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/app/components/tasks/tasks.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -833,6 +833,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/app/components/tasks/tasks.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="102" lean-forward="false" selection-start-line="16" selection-start-column="102" selection-end-line="16" selection-end-column="102" />
           <folding />
         </state>
       </provider>
