@@ -1,6 +1,9 @@
 {
   "name": "todo1",
   "version": "1.0.0",
+  "engines": {
+    "node": "6.9.4"
+  },
   "description": "To do MEAN App",
   "main": "server.js",
   "scripts": {
